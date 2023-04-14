@@ -1,0 +1,7 @@
+.header__login-info {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}

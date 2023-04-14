@@ -1,0 +1,16 @@
+.login__signin-link {
+text-align: center;
+color: #fff;
+font-size: 14px;
+line-height: 1.2;
+padding: 0;
+margin: 0 auto;
+text-decoration: none;
+transition: .2s;
+}
+
+.login__signin-link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: .2s;
+}

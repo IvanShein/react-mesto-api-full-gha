@@ -1,0 +1,17 @@
+.header__signin-link {
+  text-align: end;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0 auto;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.header__signin-link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: .2s;
+}
