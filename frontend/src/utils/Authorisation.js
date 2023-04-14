@@ -49,7 +49,7 @@ class Authorisation {
 }
 
 const authorisation = new Authorisation({
-  baseUrl: 'http://api.mesto-shein-ivan.nomoredomains.monster',
+  baseUrl: 'https://api.mesto-shein-ivan.nomoredomains.monster',
   headers: {
     'Content-Type': 'application/json'
   }
