@@ -111,7 +111,7 @@ class Api {
 const api = new Api({
   baseUrl: 'http://api.mesto-shein-ivan.nomoredomains.monster',
   headers: {
-    'Authorization': `Bearer ${localStorage.getItem('token')}`,
+    authorization: `Bearer ${localStorage.getItem('token')}`,
     'Content-Type': 'application/json'
   }
 });
