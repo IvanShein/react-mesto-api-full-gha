@@ -8,10 +8,10 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.74.187
+IP 51.250.74.187
 
-Frontend https://mesto-shein-ivan.nomoredomains.monster
+Frontend http://mesto-shein-ivan.nomoredomains.monster
 
-Backend https://api.mesto-shein-ivan.nomoredomains.monster
+Backend http://api.mesto-shein-ivan.nomoredomains.monster
 
 test
