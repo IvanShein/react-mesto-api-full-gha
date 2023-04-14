@@ -49,7 +49,7 @@ class Authorisation {
 }
 
 const authorisation = new Authorisation({
-  baseUrl: 'https://auth.nomoreparties.co',
+  baseUrl: 'http://localhost:3000',
   headers: {
     'Content-Type': 'application/json'
   }
