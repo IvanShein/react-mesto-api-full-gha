@@ -13,5 +13,3 @@ IP 51.250.74.187
 Frontend https://mesto-shein-ivan.nomoredomains.monster
 
 Backend https://api.mesto-shein-ivan.nomoredomains.monster
-
-test
