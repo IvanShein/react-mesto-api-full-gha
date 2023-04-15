@@ -20,7 +20,7 @@ class Card extends React.Component {
   }
 
   render() {
-    const isOwn = this.props.card.owner._id === this.context._id;
+    const isOwn = this.props.card.owner._id === this.context._id || this.props.card.owner === this.context._id;
     const cardDeleteButtonClassName = (
       `cards__trash-button ${isOwn ? 'cards__trash-button_active' : ''}`
     );

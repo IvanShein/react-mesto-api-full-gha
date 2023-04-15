@@ -39,8 +39,9 @@ class Authorisation {
     return fetch(`${this._baseUrl}/users/me`, {
       method: 'GET',
       headers: {
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${token}`
+        authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json'
+
       }
     })
       .then(this._handleServerResponse)
@@ -51,7 +52,7 @@ class Authorisation {
 const authorisation = new Authorisation({
   baseUrl: 'https://api.mesto-shein-ivan.nomoredomains.monster',
   headers: {
-    'Content-Type': 'application/json'
+    'Content-Type': 'application/json',
   }
 });
 

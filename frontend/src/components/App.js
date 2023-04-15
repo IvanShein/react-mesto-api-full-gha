@@ -36,8 +36,7 @@ function App() {
       authorisation.checkToken(token)
         .then((data) => {
           setLoggedIn(true);
-          setEmail(data.data.email);
-          console.log(data.data.email);
+          setEmail(data.email);
           history.push("/");
         })
         .catch((error) => {
